@@ -1,0 +1,19 @@
+footer:
+    resource: "@FooterBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+header:
+    resource: "@HeaderBundle/Controller/"
+    type:     annotation
+    prefix:   /
+    defaults: { _controller: HeaderBundle:Default:index }
+
+index:
+    resource: "@IndexBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

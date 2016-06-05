@@ -1,0 +1,4 @@
+services:
+#    header.example:
+#        class: HeaderBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

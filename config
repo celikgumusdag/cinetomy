@@ -1,0 +1,16 @@
+[core]
+	bare = true
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[core]
+	repositoryformatversion = 0
+[remote "origin"]
+	url = https://github.com/celikgumusdag/cinetomy.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	tagopt = --tags
+	pushurl = https://github.com/celikgumusdag/cinetomy.git
+[remote]
+	pushdefault = origin
+[fetch]
+	prune = true
